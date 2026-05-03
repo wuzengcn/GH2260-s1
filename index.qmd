@@ -80,7 +80,7 @@ Georgetown University
 
 Office: Room 219 St Mary's Hall 
 
-Office hours: 11:30 AM - 12:30 PM on Tuesday or [by appointment]{.red}
+Office hours: 11:30 AM - 12:30 PM on Tuesday or [**by appointment**]{.red}
 
 If you would like to join the office hour by Zoom, please email me in advance to get the Zoom link.
 </center>
