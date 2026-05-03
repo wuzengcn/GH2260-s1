@@ -6,6 +6,7 @@ format:
     slide-number: true
     wide: true
     chalkboard: true
+    margin: 0.1
 ---
 
 ::: {.title-slide}
@@ -24,15 +25,15 @@ Georgetown University
 
 ## Overview 
 
-1. What is health and health care
+::: incremental
 
-. . .
+1. What is health and health care
 
 2. What is health economics
 
-. . .
-
 3. Why health economics is important
+
+:::
 
 ---
 
@@ -75,7 +76,7 @@ Georgetown University
 
 <center> 
 
-<img src="/pic/Zeng.jpg" width="150px" style="border-radius:50%;">
+<img src="pic/Zeng.jpg" width="150px" style="border-radius:50%;">
 
 Office: Room 219 St Mary's Hall 
 
@@ -143,9 +144,8 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 ## Learning objectives
 
-::::{columns}
-::: {.column width="50%"}
-
+:::: columns
+::: {.column width="47.5%"}
 1. Demand for health services
 
     - Understand the [factors]{.red} that influence [consumer demand]{.red} for medical care, including the role of prices, insurance, advertising, time, and the influence of providers
@@ -158,7 +158,10 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
     - Understand the nature of [competition]{.red} within the hospital and physician services markets.
 :::
-:::{.column width="50%"}
+::: {.column width="5%"}
+<!-- Empty column to act as a gap -->
+:::
+::: {.column width="47.5%"}
 
 4. Market failure of medicare care 
 
@@ -170,10 +173,10 @@ If you would like to join the office hour by Zoom, please email me in advance to
   
 6. Health reforms in the US and other countries
 
-    - Understand key trend of health care reform in the US and other countries  
-
+    - Understand key trends of health care reform in the US and other countries 
 :::
 ::::
+
 ---
 ## Teaching methods 
 
