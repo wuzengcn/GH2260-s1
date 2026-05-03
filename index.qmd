@@ -75,7 +75,7 @@ Georgetown University
 
 <center> 
 
-<img src="/pic/Zeng.jpg" width="200px" style="border-radius:50%;">
+<img src="/pic/Zeng.jpg" width="150px" style="border-radius:50%;">
 
 Office: Room 219 St Mary's Hall 
 
