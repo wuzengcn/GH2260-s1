@@ -148,7 +148,7 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 1. Demand for health services
 
-    - Understand the .red[factors] that influence .red[consumer demand] for medical care, including the role of prices, insurance, advertising, time, and the influence of providers
+    - Understand the [factors]{.red} that influence [consumer demand]{.red} for medical care, including the role of prices, insurance, advertising, time, and the influence of providers
 
 2.	Supply of medical services 
 
@@ -163,14 +163,15 @@ If you would like to join the office hour by Zoom, please email me in advance to
 4. Market failure of medicare care 
 
     - Explain the primary [market failures]{.red} within the [health care industries]{.red} and the rationale for government intervention
-  
-5. Health financing
 
-    - Understand key concepts of health financing and their application
-  
-6. Economic evaluation
+5. Economic evaluation
 
     - Understanding key economic evaluation concepts and their application
+  
+6. Health reforms in the US and other countries
+
+    - Understand key trend of health care reform in the US and other countries  
+
 :::
 ::::
 ---
