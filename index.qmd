@@ -1,0 +1,193 @@
+---
+format:
+  revealjs:
+    theme: styles.scss
+    transition: fade
+    slide-number: true
+    wide: true
+    chalkboard: true
+---
+
+::: {.title-slide}
+
+# Introduction to Health economics
+
+<br>
+**Wu Zeng, MD, PHD**
+<br>
+
+Georgetown University
+
+:::
+
+---
+
+## Overview 
+
+1. What is health and health care
+
+. . .
+
+2. What is health economics
+
+. . .
+
+3. Why health economics is important
+
+---
+
+## Introduce yourself 
+
+- Name and where are you from?
+
+- Why are you interested in this class?
+
+- What would you like to achieve from the class?
+
+- Other information you want to share with the class?
+
+---
+
+## Instructor
+
+::::{columns}
+
+::: {.column width="50%"}
+
+- Name: Wu Zeng ("Wu")
+
+  - Epidemiology, Biostatistics, and preventive medicine
+  
+  - Health Financing and heath systems
+  
+  - Econometrics
+  
+  - Health Economics
+  
+  - Economic Evaluation 
+  
+  - Research Methods
+  
+  - Data analysis with R 
+:::
+
+::: {.column width="50%"}
+
+<center> 
+
+<img src="/pic/Zeng.jpg" width="200px" style="border-radius:50%;">
+
+Office: Room 219 St Mary's Hall 
+
+Office hours: 11:30 AM - 12:30 PM on Tuesday or [by appointment]{.red}
+
+If you would like to join the office hour by Zoom, please email me in advance to get the Zoom link.
+</center>
+:::
+::::
+
+---
+
+## Learning resources 
+
+::::{columns}
+::: {.column width="50%"}
+
+- Lectures 
+
+- Required books: 
+
+  - [Health Economics and Policy](https://www.cengage.com/c/etextbook-health-economics-and-policy-7e-henderson/9780357697474/)
+  
+- Case studies 
+
+- Online resources
+
+- Canvas 
+
+- Instructor
+
+- Each other
+:::
+:::{.column width="50%"}
+
+
+<img src = "https://www.cengage.com/covers/imageServlet?image_type=LRGFC&catalog=cengage&productISBN13=9780357697474" width = "300px">
+
+:::
+::::
+
+---
+
+## Course schedule 
+
+::::{columns}
+::: {.column width="50%"}
+
+- 2.5 hours/day (Tuesday: 2-4:30 PM)
+
+- 6 assignments, 1 midterm exam, and 1 final essay
+
+- Group presentation every other week
+
+:::
+
+::: {.column width="50%"}
+
+<img style = "border-radius:10%;" src = "https://previews.123rf.com/images/topvectors/topvectors1704/topvectors170400683/76172547-schedule-calendar-and-pencils-set-of-school-and-education-related-objects-in-colorful-cartoon-style.jpg" width = "400px"/>
+
+:::
+::::
+
+---
+
+## Learning objectives
+
+::::{columns}
+::: {.column width="50%"}
+
+1. Demand for health services
+
+    - Understand the .red[factors] that influence .red[consumer demand] for medical care, including the role of prices, insurance, advertising, time, and the influence of providers
+
+2.	Supply of medical services 
+
+    - Understand the fundamentals of hospital and physician services [production]{.red}, including the concepts of input factor substitution, and economies of scale and scope.
+
+3.	Market of medicare care 
+
+    - Understand the nature of [competition]{.red} within the hospital and physician services markets.
+:::
+:::{.column width="50%"}
+
+4. Market failure of medicare care 
+
+    - Explain the primary [market failures]{.red} within the [health care industries]{.red} and the rationale for government intervention
+  
+5. Health financing
+
+    - Understand key concepts of health financing and their application
+  
+6. Economic evaluation
+
+    - Understanding key economic evaluation concepts and their application
+:::
+::::
+---
+## Teaching methods 
+
+::::{.columns}
+::: {.column width="45%"}
+
+- Lectures 
+
+- In-class exercises 
+
+- Discussions 
+:::
+::: {.column width="45%"}
+
+<img style = "border-radius:10%;" src = "https://previews.123rf.com/images/goodshotalan/goodshotalan1205/goodshotalan120500003/13554868-vector-cartoon-of-executive-giving-business-lecture.jpg" width = "400px"/>
+
+:::
+::::
