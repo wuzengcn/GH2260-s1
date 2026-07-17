@@ -162,7 +162,7 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 :::: columns
 ::: {.column width="50%"}
-1. Demand for health services
+1. Demand for medical services
     - Understand the [factors]{.themec} that influence [consumer demand]{.themec} for medical care, including the role of prices, insurance, advertising, time, and the influence of providers
 2.	Supply of medical services 
     - Understand the fundamentals of hospital and physician services [production]{.themec}, including the concepts of input factor substitution, and economies of scale and scope.
