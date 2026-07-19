@@ -407,7 +407,7 @@ shows the corresponding flow of [inputs and outputs]{.themec}.
 :::{.column width="50%"}
 
   - [Technical Efficiency]{.themec} = producing maximum benefit (outputs) from given inputs (resources), or given level of benefit from least inputs. 
-    ** Do the things right **
+    - **Do the things right**
   
   - [Allocative Efficiency]{.themec} = producing the maximum of benefits (from a given set of resources) that is most highly valued. 
     - **Do the right things**
