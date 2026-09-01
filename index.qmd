@@ -570,7 +570,7 @@ shows the corresponding flow of [inputs and outputs]{.emcolor}.
 
 <center> 
 
-<img src="/pic/S1-market.png" width="400">
+<img src="/pic/S1-Market.png" width="400">
 
 </center>
 
@@ -597,7 +597,7 @@ shows the corresponding flow of [inputs and outputs]{.emcolor}.
 
 <center>
 
-<img src="/pic/s1-TE.png" width="400">
+<img src="/pic/S1-TE.png" width="400">
 
 Production frontier
 
@@ -615,7 +615,7 @@ Production frontier
 
 <center>
 
-<img src="/pic/bottle.png" width ="200">
+<img src="/pic/Bottle.png" width ="200">
 
 </center>
 
