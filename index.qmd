@@ -91,6 +91,7 @@ Overview of economics and health economics
 [1]{.accent .n-circle}
 
 Name and where are you from?
+
 </center>
 :::
 
@@ -198,7 +199,7 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 2.5 hours/day 
 
-(Tuesday: 2-4:30 PM)
+(Tuesday: 2-4:30 PM) with 2 10-minute breaks
 
 </center>
 
@@ -896,7 +897,7 @@ Inefficient!
 - Economics focuses on [‘utility’]{.emcolor}: the level of ‘happiness’ resulting from consumption
 - Health is thus one component of utility. This has important implications:
   - Health is not the sole objective of behaviours
-  -  Creates trade-offs and [choices]{.emcolor} between health and other objectives – e.g. education, defence etc
+  - Creates trade-offs and [choices]{.emcolor} between health and other objectives – e.g. education, defence etc
 - Health economics is the discipline of economics
 applied to the topic of health
   - In practice, health economics is predominantly (but not solely) “health care” economics: goods and services produced (by health sector) primarily to affect health status
