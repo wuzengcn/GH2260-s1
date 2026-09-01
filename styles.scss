@@ -1,7 +1,12 @@
 /*-- scss:defaults --*/
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono:wght@300;400&family=Noto+Serif+SC:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&display=swap");
+@import url('https://googleapis.com');
 
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap');
+// @import url('https://googleapis.com');
 // fonts
 // $font-family-monospace: "Courier New", Courier, monospace !default;
 $font-family-monospace: "Noto Sans", sans-serif !default; 
@@ -22,11 +27,11 @@ $callout-color: #783cb4;
 
 // headings
 // $presentation-heading-font: "Courier New", Courier, monospace !default;
-$presentation-heading-font: "Helvetica Neue", sans-serif !default;
+$presentation-heading-font: "Playfair Display", "Noto Serif SC", Georgia, serif !default;
 $presentation-heading-font-weight: 400 !default;
 $presentation-heading-color: #763db3 !default;
 $presentation-font-size-root: 25px !default;
-$presentation-font-family: "Helvetica Neue", sans-serif !default;
+$presentation-font-family: "Garamond", sans-serif !default;
 $presentation-h1-font-size: 2.5em !default;
 $presentation-h2-font-size: 1.8em !default;
 $presentation-h3-font-size: 1.0em !default;
@@ -40,19 +45,29 @@ h2 {
 
 // Fonts for list 
 
-$level1-font: "Helvetica Neue", serif;
+$level1-font: "Garamond", serif;
 $level1-size: 1.0em;
 $level1-color: #0c0103;
 
-$level2-font: "Helvetica Neue", serif;
+$level2-font: "Garamond", serif;
 $level2-size: 0.95em;
-$level2-color: #180557;
+$level2-color: #0c0103;
 
-$level3-font: "Helvetica Neue", serif;
+$level3-font: "Garamond", serif;
 $level3-size: 0.85em;
 $level3-color: #0c0103;
 
 /*-- scss:rules --*/
+
+// font weight 
+
+body {
+  font-weight: 400; /* Light body text */
+}
+
+p {
+  font-weight: 400; /* Normal paragraph weight */
+}
 
 // Self-defined color
 
@@ -197,7 +212,7 @@ ul li ul li ul li::marker {
   padding-top: 5px;
   padding-left: 10px;
   color: black;
-  background-color: $callout-bg-color;
+  // background-color: $callout-bg-color;
   border-bottom-right-radius: 10px;
 }
 

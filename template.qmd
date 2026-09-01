@@ -1,0 +1,152 @@
+
+/* two column (left title of list, right of list) */
+
+::::{.slide-list}
+:::{.list-head}
+
+<p class="h2">this is a test </p>
+
+:::
+
+:::{.list-body .bullet-list}
+
+- the first improtant condiction is to get 
+
+:::
+
+::::
+
+---
+
+/*two column*/
+
+:::{.two-col-grid}
+
+:::{.grid-item}
+
+<center>
+
+[1]{.accent .n-circle}
+
+</center>
+
+Syllabus and course overview
+
+:::{.bullet-list}
+
+  - Intrduction of class
+
+:::
+
+:::
+
+:::{.grid-item}
+
+<center>
+
+[2]{.accent .n-circle}
+
+</center>
+
+Overview of economics and health economics
+
+:::{.bullet-list}
+
+  - [What]{.emcolor} is economics and health economics
+
+:::
+:::
+::::
+
+---
+
+/* Three column */
+
+:::{.three-col-grid}
+
+:::{.grid-item}
+
+<center>
+
+[1]{.accent .n-circle}
+
+</center>
+
+This is the first grid item. write random words, This is the first grid item. write random words , This is the first grid item. 
+:::
+
+:::{.grid-item}
+<center>
+
+[2]{.accent .n-circle}
+
+</center>
+[This is the second grid item. write random words]{.label}
+:::
+
+:::{.grid-item}
+
+<center>
+
+[3]{.accent .n-circle}
+
+</center>
+
+This is the third grid item. write random words
+:::
+
+:::
+
+---
+
+/*with rule*/
+
+:::{layout = "[47.5,5,47.5]"}
+
+:::{first}
+[this is new one]{.kicker}
+
+<div class="rule"></div>
+
+<p class="h2">Five principles that reframe how we think about brand</p>
+
+:::{.lead .accent .light}
+
+this is new study for type in
+
+:::
+
+:::
+
+:::{second}
+<!-- not thing-->
+:::
+
+:::{third}
+
+:::{.bullet-list}
+
+- Start with the community, not the product — earn presence beforeclaiming it
+
+- Build a brand that is a platform for the community, not a product
+:::
+
+:::
+:::
+
+----
+
+/*quote*/
+
+:::{.slide-quote}
+
+:::{.quote-text}
+
+"that is nothing you can not do. we can also do well all the work"
+
+:::
+
+:::
+
+[Name]{.emcolor .label}
+

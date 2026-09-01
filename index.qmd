@@ -1,101 +1,159 @@
 ---
 format:
   revealjs:
-    theme: styles.scss
+    width: 1280
+    height: 720
+    margin: 0.05
+    theme: styles1.scss
     transition: fade
     slide-number: true
     wide: true
     chalkboard: true
-    margin: 0.1
     footer: "Introduction to Health Economics | Fall 2026 | Session 1"
     controls: true
+    center: true
 ---
 
-::: {.title-slide}
+:::{layout = "[90,10]"}
 
-# Introduction to Health economics
+:::{first}
+[Session 1]{.kicker}
 
-<br>
+<p class="h1"> Introduction to Health Economics</p>
 
-
-Wu Zeng, MD, PHD
-
-<br>
-
-Associate Professor
-
-Department of Global Health
-
-Georgetown University
-
-`wz192@georgetown.edu`
-
-<br>
-
-[Claimer]{.themec}: I declares no conflict of interest
-
+[Wu Zeng, MD, PHD, Georgetown University]{.label}
 
 :::
 
+:::{first}
+<!-- not thing-->
+:::
+
+:::
+
+
 ---
 
-## Overview 
+## Overview
 
-1. Syllabus and course overview
+:::{.two-col-grid}
 
-1. Overview of economics and health economics
+:::{.grid-item}
 
-    a. [What]{.themec} is economics and health economics
+<center>
 
-    b. [Why]{.themec} health economics is important
+[1]{.accent .n-circle}
 
+Syllabus and course overview
+
+</center>
+
+:::{.bullet-list}
+
+  - Introduction of class
+
+  - Objectives of course 
+
+  - Course evaluation
+
+:::
+
+:::
+
+:::{.grid-item}
+
+<center>
+
+[2]{.accent .n-circle}
+
+Overview of economics and health economics
+
+</center>
+
+:::{.bullet-list}
+
+  - [What]{.emcolor} is economics and health economics
+
+  - [Why]{.emcolor} health economics is important
+
+:::
+:::
+::::
 
 ---
 
 ## Introduce yourself 
 
-- Name and where are you from?
+:::{.three-col-grid}
+:::{.grid-item}
+<center>
 
-- What would you like to achieve from the class?
+[1]{.accent .n-circle}
 
-- Other information you want to share with the class?
+Name and where are you from?
+</center>
+:::
+
+:::{.grid-item}
+<center>
+
+[2]{.accent .n-circle}
+
+What would you like to achieve from the class?
+
+</center>
+:::
+
+:::{.grid-item}
+<center>
+
+[3]{.accent .n-circle}
+
+Other information you want to share with the class?
+</center>
+:::
+:::
 
 ---
 
 ## Instructor
 
-::::{columns}
+::::{.two-col-grid}
 
-::: {.column width="50%"}
+:::{.grid-item}
 
-- Name: Wu Zeng ("Wu")
+Name: Wu Zeng ("Wu")
 
-  - Epidemiology, Biostatistics, and preventive medicine
-  
-  - Health Financing and heath systems
-  
-  - Health Economics
-  
-  - Economic Evaluation 
+:::{.bullet-list}
 
-  - Econometrics
+- Epidemiology, Biostatistics, and preventive medicine
   
-  - Research Methods
+- Health Financing and heath systems
   
-  - Data analysis with R 
+- Health Economics
+  
+- Economic Evaluation 
+
+- Econometrics
+  
+- Research Methods
+  
+- Data analysis with R 
+:::
 :::
 
-::: {.column width="50%"}
+::: {.grid-item}
 
 <center> 
 
-<img src="pic/Zeng1.jpg" width="200px" style="border-radius:50%;">
+<img src="pic/Zeng1.jpg" width="200px" style="border-radius:50%; border: 2px solid #000000;" />
 
-Office: Room [219]{.themec} St Mary's Hall 
+Office: Room [219]{.emcolor} St Mary's Hall 
 
-Office hours: 11:30 AM - 12:30 PM on [Tuesdays]{.themec} or [**by appointment**]{.themec}
+Office hours: 11:30 AM - 12:30 PM on [Tuesdays]{.emcolor} or [by appointment]{.emcolor}
 
 If you would like to join the office hour by Zoom, please email me in advance to get the Zoom link.
+
 </center>
 :::
 ::::
@@ -104,24 +162,17 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 ## Learning resources 
 
-::::{columns}
-::: {.column width="50%"}
-
+::::columns 
+:::{.column width="50%"}
+:::{.bullet-list}
 - Lectures 
-
-- Required books: 
-
-  - [Health Economics and Policy](https://www.cengage.com/c/etextbook-health-economics-and-policy-7e-henderson/9780357697474/)
-  
+- Required books: Health Economics and Policy
 - Case studies 
-
 - Online resources
-
 - Canvas 
-
 - Instructor
-
 - Each other
+:::
 :::
 :::{.column width="50%"}
 
@@ -130,29 +181,54 @@ If you would like to join the office hour by Zoom, please email me in advance to
 <img src = "https://www.cengage.com/covers/imageServlet?image_type=LRGFC&catalog=cengage&productISBN13=9780357697474" width = "300px">
 
 </center>
-
 :::
+
 ::::
 
 ---
 
 ## Course schedule 
 
-::::{columns}
-::: {.column width="50%"}
+::::{.three-col-grid}
+::: {.grid-item}
 
-- 2.5 hours/day (Tuesday: 2-4:30 PM)
+<center>
 
-- 5 assignments (every other week), 1 midterm exam, and 1 final essay
+[1]{.accent .n-circle}
 
-- [Group presentation]{.themec} 
+2.5 hours/day 
+
+(Tuesday: 2-4:30 PM)
+
+</center>
 
 :::
 
-::: {.column width="50%"}
+:::{.grid-item}
+<center>
 
-<img style = "border-radius:10%;" src = "https://previews.123rf.com/images/topvectors/topvectors1704/topvectors170400683/76172547-schedule-calendar-and-pencils-set-of-school-and-education-related-objects-in-colorful-cartoon-style.jpg" width = "400px"/>
+[2]{.accent .n-circle}
 
+Assignments and exams
+
+</center>
+
+:::{bullet-list}
+
+  - 5 assignments (every other week)
+  - 1 midterm exam, and 
+  - 1 final exam
+
+:::
+
+:::
+
+:::{.grid-item}
+<center>
+[3]{.accent .n-circle}
+
+Group presentation
+</center>
 :::
 ::::
 
@@ -160,23 +236,42 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 ## Learning objectives
 
-:::: columns
-::: {.column width="50%"}
-1. Demand for medical services
-    - Understand the [factors]{.themec} that influence [consumer demand]{.themec} for medical care, including the role of prices, insurance, advertising, time, and the influence of providers
-2.	Supply of medical services 
-    - Understand the fundamentals of hospital and physician services [production]{.themec}, including the concepts of input factor substitution, and economies of scale and scope.
-3.	Market of medicare care 
-    - Understand the nature of [competition]{.themec} within physician services and pharmaceutical markets.
+::::{.six-grid}
+
+:::{.grid-item}
+[Demand for medical services]{.accent .caption}
+
+[Understand the [factors]{.emcolor} that influence [consumer demand]{.emcolor} for medical care, including the role of prices, insurance, advertising, time, and the influence of providers]{.label}
 :::
 
-::: {.column width="50%"}
-4. Market failure of medicare care 
-    - Explain the primary [market failures]{.themec} within the [health care industries]{.themec} and the rationale for government intervention
-5. Economic evaluation
-    - Understanding key economic evaluation [concepts]{.themec} and their [application]{.themec}
-6. Health reforms in the US and other countries
-    - Understand key trends of health care reform in the US and other countries 
+:::{.grid-item}
+[Supply of medical services]{.accent .caption}
+
+[Understand the fundamentals of hospital and physician services [production]{.emcolor}, including the concepts of input factor substitution, and economies of scale and scope.]{.label}
+:::
+
+:::{.grid-item}
+[Market of medicare care]{.accent .caption}
+
+[Understand the nature of [competition]{.emcolor} within physician services and pharmaceutical markets.]{.label}
+:::
+
+:::{.grid-item}
+[Market failure of medicare care]{.accent .caption}
+
+[Explain the primary [market failures]{.emcolor} within the [health care industries]{.emcolor} and the rationale for government intervention.]{.label}
+:::
+
+:::{.grid-item}
+[Economic evaluation]{.accent .caption}
+
+[Understanding key economic evaluation [concepts]{.emcolor} and their [application]{.emcolor}]{.label}
+:::
+
+:::{.grid-item}
+[Health reforms in the US and other countries]{.accent .caption}
+
+[Understand key trends of health care reform in the US and other countries.]{.label}
 :::
 ::::
 
@@ -186,14 +281,19 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 ::::{.columns}
 ::: {.column width="45%"}
+:::{.bullet-list}
 - Lectures 
 - Discussions 
-- Case studies
-  - Student presentations
+- Case studies (Student presentations)
+:::
 :::
 ::: {.column width="45%"}
 
+<center>
+
 <img style = "border-radius:10%;" src = "https://previews.123rf.com/images/goodshotalan/goodshotalan1205/goodshotalan120500003/13554868-vector-cartoon-of-executive-giving-business-lecture.jpg" width = "400px"/>
+
+</center>
 
 :::
 ::::
@@ -205,36 +305,64 @@ If you would like to join the office hour by Zoom, please email me in advance to
 ::::{.columns}
 ::: {.column width="45%"}
 
+:::{.bullet-list}
 - 5 Assignments (30%)
 - Midterm exam (20%)
-- Final essay (40%)
-- Group presentation (10%)
+- Final Exam (30%)
+- Group presentation (15%)
+- Questions submitted for presentations (5%)
+:::
 :::
 ::: {.column width="45%"}
+
+<center>
+
  <img style = "border-radius:20%;" src = "http://www.creativejeffrey.com/pictures/cartoon_examine_idea.jpg" width ="400px" />
+
+ </center>
 :::
 ::::
 
 :::{footnote}
-1. If students miss three sessions during the semester, [F]{.themec} will be given
+
+1. If students miss three sessions during the semester, [F]{.emcolor} will be given
+
 :::
 
 ---
 
-## Laptop and cell phone policy 
+::::{.slide-list}
 
-- Use of laptops in class is [prohibited]{.themec}
+:::{.list-head}
 
-- Note taking is not neccessary. If you want to take notes, please use [pen]{.themec} and [paper]{.themec}
+[Labtop policy]{.kicker}
 
-- Slides will be provided [after]{.themec} class.
+<div class="rule"></div>
+
+<p class="h2">Laptop and cell phone policy</p>
+
+:::
+
+:::{.list-body .bullet-list}
+
+- Use of laptops in class is [prohibited]{.emcolor}
+
+- Note taking is not neccessary. If you want to take notes, please use [pen]{.emcolor} and [paper]{.emcolor}
+
+- Slides will be provided [after]{.emcolor} class.
+
+:::
+::::
 
 ---
 
 ## Schedule of class
 
-::::{.columns}
-::: {.column width="50%"}
+<div class="rule"></div>
+
+::::{.two-col-grid}
+:::{.grid-item}
+:::{.bullet-list}
 - 9/1: Overview of health economics
 - 9/15: Economic analysis Part I: Demand analysis 
 - 9/22: Economic analysis Part II: Supply analysis and equilibrium 
@@ -243,7 +371,9 @@ If you would like to join the office hour by Zoom, please email me in advance to
 - 10/13: Demand for health and medical care
 - 10/20: Midterm exam
 :::
-:::{.column width="50%"}
+:::
+:::{.grid-item}
+:::{.bullet-list}
 - 10/27: Population health
 - 11/3: Market for health insurance
 - 11/10: Physicians' service market
@@ -252,15 +382,48 @@ If you would like to join the office hour by Zoom, please email me in advance to
 - 12/1: Guest lecture: Emerging topics in global health economics
 - TBD: Final essay due
 :::
+:::
 ::::
 
 ---
 
-## What is prohited ?
+## What is prohibited?
 
-- Academic cheating 
-- Plagiarism
-- Disruptive behavior in class
+:::{.three-col-grid}
+
+:::{.grid-item}
+
+<center>
+
+[1]{.accent .n-circle}
+
+</center>
+
+Academic cheating
+
+:::
+
+:::{.grid-item}
+<center>
+
+[2]{.accent .n-circle}
+
+</center>
+
+Plagiarism
+:::
+
+:::{.grid-item}
+
+<center>
+
+[3]{.accent .n-circle}
+
+</center>
+
+Disruptive behavior in class
+:::
+:::
 
 ---
 
@@ -280,39 +443,38 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 ## Main questions for economics
 
-- [What]{.themec} goods and what [quantities]{.themec} 
+- [What]{.emcolor} goods and what [quantities]{.emcolor} 
 
-- [How]{.themec} are goods produced 
+- [How]{.emcolor} are goods produced 
 
-- How to [allocate]{.themec} goods 
+- How to [allocate]{.emcolor} goods 
 
-- How [efficient]{.themec} is society’s production and distribution? 
+- How [efficient]{.emcolor} is society’s production and distribution? 
 
 ---
 
 ## Concepts of economics 
 
-::::{columns}
-:::{.column width="50%"}
-- Commodities
-  - The results of combining resources in the production process. They are either [goods]{.themec} or [services]{.themec}.
-- Resources
-  - Every item within the economy that can be [used to produce]{.themec} and distribute goods and services; classified as [labour]{.themec}, [capital]{.themec} and [land]{.themec}.
-:::
-:::{.column width="50%"}
+::::{.three-col-grid}
 
-### Economics is about ...
+:::{.grid-item}
+[Commodities]{.accent .lead}
+
+- The results of combining resources in the production process. They are either [goods]{.emcolor} or [services]{.emcolor}.
+:::
+
+:::{.grid-item}
+[Resources]{.accent .lead}
+
+- Every item within the economy that can be [used to produce]{.emcolor} and distribute goods and services; classified as [labour]{.emcolor}, [capital]{.emcolor} and [land]{.emcolor}.
+:::
+
+:::{.grid-item}
+[Economics is about ...]{.accent .lead}
 
 - limited resources (e.g. labor and capital)
-- Unlimited [wants]{.themec} (goods or services -- commodities)
-- Choosing between which [wants]{.themec} we can [afford]{.themec} given our resource [budget]{.themec}
-
-<center>
-
-<image src = "pic/Choice.png" width = "200">
-
-</center>
-
+- Unlimited [wants]{.emcolor} (goods or services -- commodities)
+- Choosing between which [wants]{.emcolor} we can [afford]{.emcolor} given our resource [budget]{.emcolor}
 :::
 ::::
 
@@ -320,27 +482,29 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 ## Key concepts: Utility and consumer choice
 
-::::{columns}
+::::{.two-col-grid}
 
-:::{.column width="50%"}
+:::{.grid-item}
 
-### Utility:
+[Utility:]{.lead .accent}
 
-- The [happiness or satisfaction]{.themec} a person gains from consuming a commodity.
+- The [happiness or satisfaction]{.emcolor} a person gains from consuming a commodity.
 
-- Theory: people will choose consuming the amount of goods to [maximize]{.themec} the [utility]{.themec} within the budget he/she has
+[Theory:]{.accent .lead}
+
+- people will choose consuming the amount of goods to [maximize]{.emcolor} the [utility]{.emcolor} within the budget he/she has
 
 - MU = MC, MU is marginal utility, MC is marginal cost
 
 :::
 
-:::{.column width="50%"}
+:::{.grid-item}
 
-### Economics is about choice
+[Economics is about choice]{.accent .lead}
 
 <center>
 
-<image src = "pic/choice2.png" width = "800">
+{{< fa scale-unbalanced size=10x >}}
 
 </center> 
 
@@ -351,46 +515,61 @@ If you would like to join the office hour by Zoom, please email me in advance to
 
 ## Personal choice 
 
-- For lunch I could have
+[For lunch I could have]{.accent .lead}
 
   - Whopper meal deal (small)
-
   - Tall latte and blueberry muffin (to go)
-
   - Tuna sandwich & cracked pepper crisps
-
   - Pint of Guinness & packet peanuts
 
 ---
 
 ## Key concepts: Profit and supplier/Producer choice
 
-- Profit: The difference between the [revenue]{.themec} a firm receives from selling its goods and the [costs]{.themec} of producing those goods.
+::::{.two-col-grid}
+:::{.grid-item}
+[Producer]{.accent .lead}
 
-- Theory: Firms will choose to produce the amount of goods to [maximize]{.themec} the [profit]{.themec} within the budget they have
+:::{.bullet-list}
 
+- Profit: The difference between the revenue a firm receives from selling its goods and the costs of producing those goods.
+- Theory: Firms will choose to produce the amount of goods to maximize the profit within the budget they have
 - MR = MC, MR is marginal revenue, MC is marginal cost
+
+:::
+:::
+
+:::{.grid-item}
+[Consumer]{.accent .lead}
+
+:::{.bullet-list}
+- Utility: The happiness or satisfaction a person gains from consuming a commodity.
+- Theory: people will choose consuming the amount of goods to maximize the utility within the budget he/she has
+- MU = MC, MU is marginal utility, MC is marginal cost
+:::
+:::
+::::
 
 ---
 
 ## Market
 
-- Definition: Any situation where people who demand a good or service can come into contact with the suppliers of that good.
+Definition: Any situation where people who demand a good or service can come into contact with the suppliers of that good.
 
-:::: columns
-:::{.column width="50%"}
-- Decisions are made by [households]{.themec} and [firms]{.themec}.
-- Households and firms interact in the markets for [goods and services]{.themec} (where
-households are buyers and firms are sellers) and in the markets for the [factors of production]{.themec} (where firms are buyers and households are sellers).
-- The outer set of arrows shows the flow of [dollars]{.themec}, and the inner set of arrows
-shows the corresponding flow of [inputs and outputs]{.themec}.
+::::{.two-col-grid}
+:::{.grid-item}
+- Decisions are made by [households]{.emcolor} and [firms]{.emcolor}.
+- Households and firms interact in the markets for [goods and services]{.emcolor} (where
+households are buyers and firms are sellers) and in the markets for the [factors of production]{.emcolor} (where firms are buyers and households are sellers).
+- The outer set of arrows shows the flow of [dollars]{.emcolor}, and the inner set of arrows
+shows the corresponding flow of [inputs and outputs]{.emcolor}.
 :::
 
-:::{.column width="50%"}
+:::{.grid-item}
 
 <center> 
 
-<img src="/pic/S1-market.png" width="500">
+<img src="/pic/S1-market.png" width="400">
 
 </center>
 
@@ -403,17 +582,17 @@ shows the corresponding flow of [inputs and outputs]{.themec}.
 
 ### Efficiency = making most of what we’ve got!
 
-:::: columns
-:::{.column width="50%"}
+::::{.two-col-grid}
+:::{.grid-item}
 
-  - [Technical Efficiency]{.themec} = producing maximum benefit (outputs) from given inputs (resources), or given level of benefit from least inputs. 
-    - **Do the things right**
+  - [Technical Efficiency]{.emcolor} = producing maximum benefit (outputs) from given inputs (resources), or given level of benefit from least inputs. 
+    - *Do the things right*
   
-  - [Allocative Efficiency]{.themec} = producing the maximum of benefits (from a given set of resources) that is most highly valued. 
-    - **Do the right things**
+  - [Allocative Efficiency]{.emcolor} = producing the maximum of benefits (from a given set of resources) that is most highly valued. 
+    - *Do the right things*
 
 :::
-:::{.column width="50%"}
+:::{.grid-item}
 
 <center>
 
@@ -430,8 +609,8 @@ Production frontier
 
 ## Economists view of the world
 
-::::{columns}
-:::{.column width="50%"}
+::::{.two-col-grid}
+:::{.grid-item}
 
 <center>
 
@@ -441,7 +620,7 @@ Production frontier
 
 :::
 
-:::{.column width="50%"}
+:::{.grid-item}
 
 - Pessimist: bottle ½ empty
 
@@ -451,7 +630,7 @@ Production frontier
 
 <center> 
 
-[Inefficient!]{.themec}
+Inefficient!
 
 </center>
 
@@ -462,43 +641,35 @@ Production frontier
 
 ## Economics is
 
-::::columns 
-:::{.column width = "50%"}
-:::{.block}
-:::{.block-header}
-Concerned with
-:::
-:::{.block-body}
+::::{.two-col-grid}
+:::{.grid-item}
+
+[Concerned with]{.accent .lead}
+
+:::{.bullet-list}
 - Costs (resource use)
 - Benefits
 - Choice
 - Efficiency
 :::
 :::
-:::
 
-:::{.column width = "50%"}
-:::{.block}
-:::{.block-header}
-When choosing X, benefits $>$ the costs?
-:::
-:::{.block-body}
-- If yes then doing X is efficient
-- If no then doing X is inefficient
-:::
+:::{.grid-item}
+
+[When choosing X, benefits $>$ the costs?]{.accent .lead}
+
+:::{.bullet-list}
+- If yes, then doing X is efficient
+- If no, then doing X is inefficient
 :::
 :::
 ::::
 
 ---
 
-<img src = "https://digitalho.com/wp-content/uploads/2014/11/health-economics-modelling-heor.png" width = 800 px />
+##
 
-<center>
-
-### What is health economics 
-
-</center>
+<img src = "https://digitalho.com/wp-content/uploads/2014/11/health-economics-modelling-heor.png" width = "50%" />
 
 ---
 
@@ -524,15 +695,44 @@ When choosing X, benefits $>$ the costs?
 
 ## Definition of health economics
 
-- Health economics is the study of how (scarce) [resources]{.themec} are allocated to and within the health economy
-  - Production of health care (doctors, specialists, or nurses)
-  - How do we distribute health care across the population?
-    - Based on who can pay or who needs it or some combination
-  - How much money should the government spend on health care?
-- Demonstrates the [magnitude]{.themec} and [importance]{.themec} of the health sector
-  - e.g. How fast it might be growing and why
-- What makes it [different]{.themec} from other markets and how our analysis may need to adjust
-- Models the [determinants]{.themec} of health status and examines how [government policy]{.themec} might improve health status in short and long run
+::::{.four-grid}
+:::{.grid-item}
+[Resource allication]{.accent .lead}
+
+:::{.bullet-list}
+- Production of health care (doctors, specialists, or nurses)
+- How do we distribute health care across the population?
+- How much money should the government spend on health care?
+:::
+:::
+
+:::{.grid-item}
+
+[Demonstrates the magnitude and importance of the health sector]{.accent .lead}
+
+:::{.bullet-list}
+- e.g. How fast it might be growing and why
+:::
+:::
+
+:::{.grid-item}
+
+[Uniqueness of health care]{.accent .lead}
+
+:::{.bullet-list}
+
+- What makes it different from other markets and how our analysis may need to adjust
+:::
+:::
+
+:::{.grid-item}
+[Economic determinants and governemnt policy]{.accent .lead}
+
+:::{.bullet-list}
+- Models the determinants of health status and examines how government policy might improve health status in short and long run
+:::
+:::
+::::
 
 ---
 
@@ -552,38 +752,59 @@ When choosing X, benefits $>$ the costs?
 
 ---
 
-## The size of US health economy
+::::{.slide-list}
+:::{.list-head}
 
-- GDP: The market value of final goods and services produced within the borders of a country in a year
+<p class="h2">The size of US health economy</p>
+
+[GDP: The market value of final goods and services produced within the borders of a country in a year]{.caption}
+
+:::
+:::{.list-body}
 
 <center>
-
 
 ![Figure 2: National US spending on health care](/pic/S1-F2.png){width=800px}
 
-
 </center>
+:::
+::::
 
 ---
 
-## US compared to OECD countries
+::::{.slide-list}
+:::{.list-head}
+
+<p class="h2">US compared to OECD countries</p>
+
+[Health spending per capita]{.caption}
+
+:::
+:::{.list-body}
 
 <center>
-
 
 ![Figure 3: Health expenditure per capita](/pic/S1-F3.png){width=800px}
 
-
 </center>
-
+:::
+::::
 
 ---
 
-## Health outcomes and health spending
+::::{.slide-list}
+:::{.list-head}
+<p class="h2">Health outcomes and health spending</p>
+:::
+:::{.list-body}
 
 <center>
-![Figure 4: Health outcomes and health spending](/pic/S1-F4.jpg){width=800px}
+
+![Figure 4: Health outcomes and health spending](/pic/S1-F4.jpg){width=700px}
+
 </center>
+:::
+::::
 
 ---
 
@@ -599,7 +820,6 @@ When choosing X, benefits $>$ the costs?
   - Increased health insurance coverage (~60% in 1970s to ~ 90% in 2020s)
   - High administrative costs (e.g. billing, insurance, and marketing)
 - Is the fact that the US population spends more per capita on health care than people in any other developed country evidence of a failure of the US system?
-
 :::
 
 ---
@@ -623,13 +843,13 @@ When choosing X, benefits $>$ the costs?
 
 ## Where the money comes from
 
-<img src = "https://hospitalmedicaldirector.com/wp-content/uploads/2026/01/2024-US-healthcare-expenditures-1-2048x1102.jpg" width = "800px"/>
+<img src = "https://hospitalmedicaldirector.com/wp-content/uploads/2026/01/2024-US-healthcare-expenditures-1-2048x1102.jpg" width = "750px"/>
 
 ---
 
 ## Where the money goes 
 
-<img src = "https://hospitalmedicaldirector.com/wp-content/uploads/2026/01/2024-US-healthcare-expenditures-2-2048x1110.jpg" width = "800px"/>
+<img src = "https://hospitalmedicaldirector.com/wp-content/uploads/2026/01/2024-US-healthcare-expenditures-2-2048x1110.jpg" width = "700px"/>
 
 ---
 
@@ -647,26 +867,25 @@ When choosing X, benefits $>$ the costs?
 
 ## Facts about american health system 
 
-::::{columns}
-:::{.column width="47.5%"}
+::::{.two-col-grid}
+:::{.grid-item}
+:::{.bullet-list}
 1. U.S. per capita health-care spending nearly quadrupled from 1980 to 2018
 2. U.S. health-care spending is almost twice as high as the OECD average.
 3. Most health-care spending is on hospitals and professional services.
 4. Five percent of Americans accounted for half of all U.S. health-care spending in 2017.
 5. Expenditures are high and variable for those with the poorest health.
 :::
-
-:::{.column width="5%"}
-<!--- not content--->
 :::
 
-:::{.column width="47.5%"}
+:::{.grid-item}
+:::{.bullet-list}
 (6) Health-care spending per privately insured person is three times higher in some parts of the country than in others.
 (7) In many cities, health-care prices vary widely for the same services
 (8) U.S. health-care administrative costs are the highest of all advanced economies.
 (9) Market concentration is high for specialist physicians, insurers, and especially hospitals.
 (10) U.S. physician labor supply is tightly restricted.
-
+:::
 :::
 ::::
 
@@ -674,10 +893,10 @@ When choosing X, benefits $>$ the costs?
 
 ## Health and economics 
 
-- Economics focuses on [‘utility’]{.themec}: the level of ‘happiness’ resulting from consumption
+- Economics focuses on [‘utility’]{.emcolor}: the level of ‘happiness’ resulting from consumption
 - Health is thus one component of utility. This has important implications:
   - Health is not the sole objective of behaviours
-  -  Creates trade-offs and [choices]{.themec} between health and other objectives – e.g. education, defence etc
+  -  Creates trade-offs and [choices]{.emcolor} between health and other objectives – e.g. education, defence etc
 - Health economics is the discipline of economics
 applied to the topic of health
   - In practice, health economics is predominantly (but not solely) “health care” economics: goods and services produced (by health sector) primarily to affect health status
@@ -698,13 +917,11 @@ applied to the topic of health
   
   - Decisions in health (care) often determined by economic environment
 
-- (Health) economics is [not]{.themec} concerned with saving money, but with improving people’s lives
+- (Health) economics is [not]{.emcolor} concerned with saving money, but with improving people’s lives
 
-- Health economics is quite literally [a matter of life and death!]{.themec}
+- Health economics is quite literally [a matter of life and death!]{.emcolor}
 
 ---
 
-## Comments and questions? {.center}
-
-
+## Comments and questions? 
 
