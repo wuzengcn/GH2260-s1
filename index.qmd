@@ -615,7 +615,7 @@ Production frontier
 
 <center>
 
-<img src="pic/Bottle.png" width ="200">
+<img src="./pic/Bottle.png" width ="200">
 
 </center>
 
